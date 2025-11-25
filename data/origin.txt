@@ -1,0 +1,2 @@
+%origin for local Caresian coordinates (lon, lat)
+-125, 45 
