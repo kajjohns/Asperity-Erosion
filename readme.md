@@ -15,6 +15,9 @@ The codes are currently set up for **Cascadia**, but the workflow is generic and
 Also included in this repository are codes for reproducing and plotting the inversion results  for the three subduction zones in the manuscript. These scripts are in folders called Run_Nankai_Inversion, Run_Cascadia_Inversion, and Run_Hikurangi_Inversion. In each folder run the scripts in the following order: (1)setup_, (2) mcmc_inverions_, (3) plot_MCMC_inversion_.
 
 Note: The only files not provided are the very large hmat binary files that are generated in the build_GFs step (or setup step).  These will need to be built by setting compute_hmat = true;
+
+Note: You may need to compile and Mex hm_mvp codes (heirarchical matrix, matrix-vector product). Instructions for this are in the readme in the hmmvp0.16 folder. 
+ 
  
 ---
 
